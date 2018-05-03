@@ -19,7 +19,7 @@ class Transfer
   
   def execute_transaction
     if @status == "pending"
-      if self.valid? == true
+      if self.valid? == true && 
   end
   
 end
